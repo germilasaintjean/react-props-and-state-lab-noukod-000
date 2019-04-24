@@ -2,6 +2,7 @@ import React from 'react'
 
 import Filters from './Filters'
 import PetBrowser from './PetBrowser'
+import Pet from './Pet'
 
 class App extends React.Component {
   constructor() {
@@ -13,6 +14,14 @@ class App extends React.Component {
         type: 'all'
       }
     }
+  }
+
+  onChangeType = (event) => {
+    this.setState({
+      filters: {
+        type: event.target.value
+      }
+    })
   }
 
   render() {
