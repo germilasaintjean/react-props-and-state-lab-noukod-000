@@ -1,7 +1,8 @@
 import React from 'react'
 
-class Filters extends React.Component {
-  render() {
+// class Filters extends React.Component {
+//   render() {
+const Fiters = (props) => {
     return (
       <div className="ui form">
         <h3>Animal type</h3>
