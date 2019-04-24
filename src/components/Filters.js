@@ -21,6 +21,6 @@ const Fiters = (props) => {
       </div>
     )
   }
-}
+
 
 export default Filters
